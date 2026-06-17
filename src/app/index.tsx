@@ -1,6 +1,7 @@
 import { Text, View, StyleSheet } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
-import AccelerometerGame from "./AccelerometerGame";
+import AccelerometerGame from "./components/AccelerometerGame";
+import GyroscopeGame from "./components/GyroscopeGame";
 
 
 export default function Index() {
@@ -9,7 +10,7 @@ export default function Index() {
   
   return (
     <SafeAreaView style={styles.container}>
-      <AccelerometerGame/>
+      <GyroscopeGame/>
     </SafeAreaView>
   );
 }
