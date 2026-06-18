@@ -3,6 +3,7 @@ import { SafeAreaView } from "react-native-safe-area-context";
 import AccelerometerGame from "./components/AccelerometerGame";
 import GyroscopeGame from "./components/GyroscopeGame";
 import Light from "./components/Light";
+import MagnetometerUI from "./components/MagnetometerUI";
 
 
 export default function Index() {
@@ -11,7 +12,7 @@ export default function Index() {
   
   return (
     <SafeAreaView style={styles.container}>
-      <Light/>
+      <MagnetometerUI/>
     </SafeAreaView>
   );
 }
