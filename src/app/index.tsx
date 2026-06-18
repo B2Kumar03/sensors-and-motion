@@ -4,6 +4,7 @@ import AccelerometerGame from "./components/AccelerometerGame";
 import GyroscopeGame from "./components/GyroscopeGame";
 import Light from "./components/Light";
 import MagnetometerUI from "./components/MagnetometerUI";
+import DeviceMotionUI from "./components/DeviceMotionUI";
 
 
 export default function Index() {
@@ -12,7 +13,7 @@ export default function Index() {
   
   return (
     <SafeAreaView style={styles.container}>
-      <MagnetometerUI/>
+      <DeviceMotionUI/>
     </SafeAreaView>
   );
 }
